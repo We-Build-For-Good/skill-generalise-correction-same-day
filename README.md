@@ -27,19 +27,19 @@ This protocol mandates that whenever a correction is received, the AI immediatel
 
 ### For Claude Code
 ```bash
-git clone https://github.com/webuildforgood/skill-generalise-correction-same-day.git ~/.claude/skills/generalise-correction-same-day
+git clone https://github.com/We-Build-For-Good/skill-generalise-correction-same-day.git ~/.claude/skills/generalise-correction-same-day
 ```
 
 ### For Cursor
 ```bash
 mkdir -p .cursor/skills
-git clone https://github.com/webuildforgood/skill-generalise-correction-same-day.git .cursor/skills/generalise-correction-same-day
+git clone https://github.com/We-Build-For-Good/skill-generalise-correction-same-day.git .cursor/skills/generalise-correction-same-day
 ```
 
 ### For Antigravity / Open Agent Skills
 ```bash
 mkdir -p .agents/skills
-git clone https://github.com/webuildforgood/skill-generalise-correction-same-day.git .agents/skills/generalise-correction-same-day
+git clone https://github.com/We-Build-For-Good/skill-generalise-correction-same-day.git .agents/skills/generalise-correction-same-day
 ```
 
 ---
