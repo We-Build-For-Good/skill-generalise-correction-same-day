@@ -4,7 +4,7 @@ description: When a human operator corrects an AI on a single product or file, i
 license: MIT
 metadata:
   author: We Build for Good
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Generalise a Correction Same-Day: The Instant Immunity Protocol
@@ -62,4 +62,4 @@ When the human issues a correction:
 2. **Scan In-Flight Memory**: Search all open drafts, pending PRs, and queued tickets for mentions of the flawed framing.
 3. **Strip and Re-frame**: Update all affected documents in the same turn.
 4. **Codify for Posterity**: If Universal or Contextual, append the rule to the project's standing instructions or memory ledger.
-5. **Add Mechanical Verification (Where Feasible)**: If the rule is syntax or pattern based, add a simple pre-commit grep or linter rule to make regression mechanically impossible.
+5. **Add Mechanical Verification (Where Feasible)**: If the rule is syntax or pattern based, add a simple pre-commit grep or linter rule (for example with skill-system-invariant-engine) so a repeat is caught automatically.
